@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Mouse</title>
+  <link rel="stylesheet" href="assets/css/untitled.css">
+
+  <style>
+    .embaralhado {
+      animation: embaralhar 2s ease-in-out;
+    }
+
+    @keyframes embaralhar {
+      0% {
+        transform: translateY(0);
+      }
+
+      50% {
+        transform: translateY(-50px);
+      }
+
+      100% {
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <ul id="alfabeto">
+    <li id="item1">A</li>
+    <li id="item2">B</li>
+    <li id="item3">C</li>
+    <li id="item4">D</li>
+    <li id="item5">E</li>
+    <li id="item6">F</li>
+    <li id="item7">F</li>
+    <li id="item8">G</li>
+    <li id="item9">H</li>
+    <li id="item10">I</li>
+    <li id="item11">J</li>
+    <li id="item12">K</li>
+    <li id="item13">L</li>
+    <li id="item14">M</li>
+    <li id="item15">N</li>
+    <li id="item16">O</li>
+    <li id="item17">P</li>
+    <li id="item18">Q</li>
+    <li id="item19">R</li>
+    <li id="item20">S</li>
+    <li id="item21">T</li>
+    <li id="item22">U</li>
+    <li id="item23">V</li>
+    <li id="item24">W</li>
+    <li id="item25">X</li>
+    <li id="item26">Y</li>
+    <li id="item27">Z</li>
+  </ul>
+
+  <script>
+    var lista = document.querySelector('ul');
+    for (var i = lista.children.length; i >= 0; i--) {
+      lista.appendChild(lista.children[Math.random() * i | 0]);
+    }
+
+    lista.addEventListener('click', function (event) {
+      var item = event.target;
+      if (item.nodeName === 'LI') {
+        item.classList.add('embaralhado');
+      }
+    });
+
+    var alfabeto = document.getElementById("item1");
+    var alfabeto = document.getElementById("item2");
+    var alfabeto = document.getElementById("item3");
+    var alfabeto = document.getElementById("item4");
+    var alfabeto = document.getElementById("item5");
+    var alfabeto = document.getElementById("item6");
+    var alfabeto = document.getElementById("item7");
+    var alfabeto = document.getElementById("item8");
+    var alfabeto = document.getElementById("item9");
+    var alfabeto = document.getElementById("item10");
+    var alfabeto = document.getElementById("item11");
+    var alfabeto = document.getElementById("item12");
+    var alfabeto = document.getElementById("item13");
+    var alfabeto = document.getElementById("item14");
+    var alfabeto = document.getElementById("item15");
+    var alfabeto = document.getElementById("item16");
+    var alfabeto = document.getElementById("item17");
+    var alfabeto = document.getElementById("item18");
+    var alfabeto = document.getElementById("item19");
+    var alfabeto = document.getElementById("item20");
+    var alfabeto = document.getElementById("item21");
+    var alfabeto = document.getElementById("item22");
+    var alfabeto = document.getElementById("item23");
+    var alfabeto = document.getElementById("item24");
+    var alfabeto = document.getElementById("item25");
+    var alfabeto = document.getElementById("item26");
+    var alfabeto = document.getElementById("item27");
+
+    item1.addEventListener("click", function () {
+      item1.style.backgroundColor = "green";
+    });
+
+    item2.addEventListener("click", function () {
+      item2.style.backgroundColor = "green";
+    });
+
+    item3.addEventListener("click", function () {
+      item3.style.backgroundColor = "green";
+    });
+
+    item4.addEventListener("click", function () {
+      item4.style.backgroundColor = "green";
+    });
+    item5.addEventListener("click", function () {
+      item5.style.backgroundColor = "green";
+    });
+
+    item6.addEventListener("click", function () {
+      item6.style.backgroundColor = "green";
+    });
+    item7.addEventListener("click", function () {
+      item7.style.backgroundColor = "green";
+    });
+
+    item8.addEventListener("click", function () {
+      item8.style.backgroundColor = "green";
+    });
+    item9.addEventListener("click", function () {
+      item9.style.backgroundColor = "green";
+    });
+
+    item10.addEventListener("click", function () {
+      item10.style.backgroundColor = "green";
+    });
+    item11.addEventListener("click", function () {
+      item11.style.backgroundColor = "green";
+    });
+
+    item12.addEventListener("click", function () {
+      item12.style.backgroundColor = "green";
+    });
+    item13.addEventListener("click", function () {
+      item13.style.backgroundColor = "green";
+    });
+
+    item14.addEventListener("click", function () {
+      item14.style.backgroundColor = "green";
+    });
+    item15.addEventListener("click", function () {
+      item15.style.backgroundColor = "green";
+    });
+
+    item16.addEventListener("click", function () {
+      item16.style.backgroundColor = "green";
+    });
+    item17.addEventListener("click", function () {
+      item17.style.backgroundColor = "green";
+    });
+
+    item18.addEventListener("click", function () {
+      item18.style.backgroundColor = "green";
+    });
+    item19.addEventListener("click", function () {
+      item19.style.backgroundColor = "green";
+    });
+
+    item20.addEventListener("click", function () {
+      item20.style.backgroundColor = "green";
+    });
+    item21.addEventListener("click", function () {
+      item21.style.backgroundColor = "green";
+    });
+
+    item22.addEventListener("click", function () {
+      item22.style.backgroundColor = "green";
+    });
+
+    item23.addEventListener("click", function () {
+      item23.style.backgroundColor = "green";
+    });
+
+    item24.addEventListener("click", function () {
+      item2.style.backgroundColor = "green";
+    });
+
+    item25.addEventListener("click", function () {
+      item25.style.backgroundColor = "green";
+    });
+
+    item26.addEventListener("click", function () {
+      item26.style.backgroundColor = "green";
+    });
+
+    item27.addEventListener("click", function () {
+      item27.style.backgroundColor = "green";
+    });
+
+  </script>
+
+  <a href="index.html">
+    <button class="botao">
+      VOLTAR A PÁGINA INICIAL
+    </button>
+  </a>
+
+
+</body>
+
+</html>
